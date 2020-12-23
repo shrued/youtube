@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "The Batman",
+    "channel": "Warner Bros. UK & Ireland",
+    "thumbnail": "https://img.youtube.com/vi/g59rUQbVlIw/mqdefault.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Tenet",
+    "channel": "Warner Bros. UK & Ireland",
+    "thumbnail": "https://img.youtube.com/vi/tKctq46j2qw/mqdefault.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Justice League: Director’s Cut | Official Teaser Update | HBO Max",
+    "channel": "HBO Max",
+    "thumbnail": "https://img.youtube.com/vi/XIOU_k4mwDw/mqdefault.jpg"
+  }
+]
