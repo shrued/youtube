@@ -4,11 +4,13 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import Foundation from "react-native-vector-icons/Foundation";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
-import Home from "../screens/home";
-import Explore from "../screens/explore";
-import Create from "../screens/create";
-import Subscriptions from "../screens/subscriptions";
-import Library from "../screens/library";
+import {
+  HomeStackScreen,
+  ExploreStackScreen,
+  CreateStackScreen,
+  SubscriptionsStackScreen,
+  LibraryStackScreen,
+} from "./stackNavigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -21,7 +23,7 @@ export default function tabNavigator() {
     >
       <Tab.Screen
         name="Home"
-        component={Home}
+        component={HomeStackScreen}
         options={{
           tabBarLabel: "Home",
           tabBarIcon: ({ color, size }) => (
@@ -31,7 +33,7 @@ export default function tabNavigator() {
       />
       <Tab.Screen
         name="Explore"
-        component={Explore}
+        component={ExploreStackScreen}
         options={{
           tabBarLabel: "Explore",
           tabBarIcon: ({ color, size }) => (
@@ -41,7 +43,7 @@ export default function tabNavigator() {
       />
       <Tab.Screen
         name="Create"
-        component={Create}
+        component={CreateStackScreen}
         options={{
           tabBarLabel: "Create",
           tabBarIcon: ({ color, size }) => (
@@ -51,7 +53,7 @@ export default function tabNavigator() {
       />
       <Tab.Screen
         name="Subscriptions"
-        component={Subscriptions}
+        component={SubscriptionsStackScreen}
         options={{
           tabBarLabel: "Subscriptions",
           tabBarIcon: ({ color, size }) => (
@@ -61,7 +63,7 @@ export default function tabNavigator() {
       />
       <Tab.Screen
         name="Library"
-        component={Library}
+        component={LibraryStackScreen}
         options={{
           tabBarLabel: "Library",
           tabBarIcon: ({ color, size }) => (

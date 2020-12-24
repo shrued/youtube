@@ -40,7 +40,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     alignItems: "flex-start",
-    paddingTop: 50,
     margin: 5,
   },
   item: {
